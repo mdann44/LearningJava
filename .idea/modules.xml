@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LearningJava.iml" filepath="$PROJECT_DIR$/.idea/LearningJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metanit/metanit.iml" filepath="$PROJECT_DIR$/metanit/metanit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metanit/src/theme2/theme2.iml" filepath="$PROJECT_DIR$/metanit/src/theme2/theme2.iml" />
+    </modules>
+  </component>
+</project>
