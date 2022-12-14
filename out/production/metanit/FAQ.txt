@@ -132,4 +132,4 @@ public class Program{   // начало объявления класса Progra
     * nextByte(): считывает введенное число byte
     * nextFloat(): считывает введенное число float
     * nextShort(): считывает введенное число short
-        Пример в файле: input_in_console
+        Пример:
