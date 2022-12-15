@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Начал вести файл FAQ">
-      <change afterPath="$PROJECT_DIR$/metanit/src/input_in_console.java" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Дополнил комментарии к файлу input_in_console.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
     </list>
@@ -23,12 +22,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -48,14 +48,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/mdannikov/Documents/GitHub/LearningJava"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mdannikov/Documents/GitHub/LearningJava&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
@@ -98,7 +98,28 @@
       <option name="project" value="LOCAL" />
       <updated>1671039998249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1. Дополнил FAQ: Закончил на теме &quot;Консольный ввод/вывод в Java&quot;&#10;&#10;2. Создал файл-пример для получения данных из консоли и вывода результата в консоль">
+      <created>1671046724914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671046724914</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Удалил лишние файлы">
+      <created>1671046788153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671046788153</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Дополнил комментарии к файлу input_in_console.java">
+      <created>1671081097203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671081097203</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +135,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Начал вести файл FAQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начал вести файл FAQ" />
+    <MESSAGE value="1. Дополнил FAQ: Закончил на теме &quot;Консольный ввод/вывод в Java&quot;&#10;&#10;2. Создал файл-пример для получения данных из консоли и вывода результата в консоль" />
+    <MESSAGE value="Удалил лишние файлы" />
+    <MESSAGE value="Дополнил комментарии к файлу input_in_console.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дополнил комментарии к файлу input_in_console.java" />
   </component>
 </project>
