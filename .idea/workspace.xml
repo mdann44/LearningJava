@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Продолжил конспект в FAQ. Остановился на теме &quot;Массивы&quot;&#10;Добавил файлы примеров выполнения циклов">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/one_array_cycle_for.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/one_array_cycle_foreach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/two_array_cycle_for.java" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Продолжил конспект в FAQ. Остановился на теме &quot;Массивы&quot;">
+      <change afterPath="$PROJECT_DIR$/metanit/src/cycle_do.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/cycle_for.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/cycle_for_and_break.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/cycle_for_and_continue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/cycle_while.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/cycle_do.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/cycle_do.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/cycle_for.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/cycle_for.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/cycle_for_and_break.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/cycle_for_and_break.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/cycle_for_and_continue.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/cycle_for_and_continue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/cycle_while.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/cycle_while.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/input_in_console.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/input_in_console.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/cycle_do.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/cycle_for.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/cycle_for_and_break.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/cycle_for_and_continue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/cycle_while.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/input_in_console.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/input_in_console.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/input_in_console.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,81 +55,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/mdannikov/Documents/GitHub/LearningJava"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mdannikov/Documents/GitHub/LearningJava&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.two_array_cycle_for">
+  <component name="RunManager" selected="Application.cycle_for_and_continue">
+    <configuration name="cycle_do" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cycle_do" />
+      <module name="metanit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cycle_for" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cycle_for" />
+      <module name="metanit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cycle_for_and_break" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.cycle_for_and_break" />
+      <option name="MAIN_CLASS_NAME" value="cycle_for_and_break" />
       <module name="metanit" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="cycle_for_and_continue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.cycle_for_and_continue" />
+      <option name="MAIN_CLASS_NAME" value="cycle_for_and_continue" />
       <module name="metanit" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="one_array_cycle_for" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.one_array_cycle_for" />
+    <configuration name="cycle_while" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cycle_while" />
       <module name="metanit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Example_theme_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="one_array_cycle_foreach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.one_array_cycle_foreach" />
-      <module name="metanit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Example_theme_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="two_array_cycle_for" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.two_array_cycle_for" />
-      <module name="metanit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Example_theme_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.two_array_cycle_for" />
-        <item itemvalue="Application.one_array_cycle_foreach" />
-        <item itemvalue="Application.one_array_cycle_for" />
         <item itemvalue="Application.cycle_for_and_continue" />
         <item itemvalue="Application.cycle_for_and_break" />
+        <item itemvalue="Application.cycle_while" />
+        <item itemvalue="Application.cycle_do" />
+        <item itemvalue="Application.cycle_for" />
       </list>
     </recent_temporary>
   </component>
@@ -194,21 +165,7 @@
       <option name="project" value="LOCAL" />
       <updated>1671107179065</updated>
     </task>
-    <task id="LOCAL-00007" summary="Продолжил конспект в FAQ. Остановился на теме &quot;Массивы&quot;&#10;Добавил файлы примеров выполнения циклов">
-      <created>1671111970160</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1671111970160</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Продолжил конспект в FAQ. Остановился на теме &quot;Массивы&quot;&#10;Добавил файлы примеров выполнения циклов">
-      <created>1671111980028</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1671111980028</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +185,6 @@
     <MESSAGE value="Удалил лишние файлы" />
     <MESSAGE value="Дополнил комментарии к файлу input_in_console.java" />
     <MESSAGE value="Продолжил конспект в FAQ. Остановился на теме &quot;Массивы&quot;" />
-    <MESSAGE value="Продолжил конспект в FAQ. Остановился на теме &quot;Массивы&quot;&#10;Добавил файлы примеров выполнения циклов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Продолжил конспект в FAQ. Остановился на теме &quot;Массивы&quot;&#10;Добавил файлы примеров выполнения циклов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Продолжил конспект в FAQ. Остановился на теме &quot;Массивы&quot;" />
   </component>
 </project>
