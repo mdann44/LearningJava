@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Example_theme_2;
 
 public class cycle_for {
     public static void main(String[] args) {

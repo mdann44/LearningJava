@@ -1,3 +1,5 @@
+package Example_theme_2;
+
 public class cycle_for_and_continue {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++){

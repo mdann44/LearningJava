@@ -1,3 +1,5 @@
+package Example_theme_2;
+
 import java.util.Scanner; // импортируем Scanner из пакета java.util
 public class input_in_console { // объявили класс
     public static void main(String[] args) { // объявили метод, внутри которого функции
