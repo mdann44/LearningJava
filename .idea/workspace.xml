@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;Добавил файлы примеров работы с оператором return, параметрами методов и запуску различных методов в main">
-      <change afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/practic_theme_2.java" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/practic_theme_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/practic_theme_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +62,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.practic_theme_2">
-    <configuration name="cycle_for_and_break" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cycle_for_and_break" />
-      <module name="metanit" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="cycle_for_and_continue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cycle_for_and_continue" />
       <module name="metanit" />
@@ -117,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="www" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example_theme_2.www" />
+      <module name="metanit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Example_theme_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.practic_theme_2" />
+        <item itemvalue="Application.www" />
         <item itemvalue="Application.operator_return" />
         <item itemvalue="Application.run_method_in_main" />
         <item itemvalue="Application.cycle_for_and_continue" />
-        <item itemvalue="Application.cycle_for_and_break" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671356106515</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2">
+      <created>1671436333736</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671436333736</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +218,7 @@
     <MESSAGE value="Продолжил конспект в FAQ. Остановился на теме &quot;Массивы&quot;" />
     <MESSAGE value="Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;Добавил файлы примеров работы с оператором return, параметрами методов и запуску различных методов в main" />
     <MESSAGE value="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;Добавил файлы примеров работы с оператором return, параметрами методов и запуску различных методов в main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;Добавил файлы примеров работы с оператором return, параметрами методов и запуску различных методов в main" />
+    <MESSAGE value="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2" />
   </component>
 </project>
