@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2">
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2.&#10;Реализовал валидацию вводимой информации">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/practic_theme_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/practic_theme_2.java" afterDir="false" />
     </list>
@@ -196,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671436333736</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2.&#10;Реализовал валидацию вводимой информации">
+      <created>1671453206031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671453206031</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +226,7 @@
     <MESSAGE value="Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;Добавил файлы примеров работы с оператором return, параметрами методов и запуску различных методов в main" />
     <MESSAGE value="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;Добавил файлы примеров работы с оператором return, параметрами методов и запуску различных методов в main" />
     <MESSAGE value="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2" />
+    <MESSAGE value="Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2.&#10;Реализовал валидацию вводимой информации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2.&#10;Реализовал валидацию вводимой информации" />
   </component>
 </project>

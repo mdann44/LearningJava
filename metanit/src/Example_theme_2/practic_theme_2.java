@@ -45,34 +45,34 @@ public class practic_theme_2 {
         int birth_year = in.nextInt(); //Получаем от пользователя его год рождения
         double year = cal.get(Calendar.YEAR)-birth_year; //Вычисляем возраст
         NumberFormat format = new DecimalFormat("0");//Указали формат чисел для вывода(Удалить дробь)
-            if ((year % 10 == 0.1 | year % 10 == 1)&& year != 11  && year > 0){
+            if ((year % 10 == 0.1 | year % 10 == 1)&& year != 11  && year > 0 && year <=100){
                 System.out.println(format.format(year)+" год");
             }
-            else if ((year % 10 == 0.2 |year % 10 == 2)&& year != 12  && year > 0){
+            else if ((year % 10 == 0.2 |year % 10 == 2)&& year != 12  && year > 0 && year <=100){
                 System.out.println(format.format(year)+" года");
             }
-            else if ((year % 10 == 0.3 |year % 10 == 3)&& year != 13  && year > 0){
+            else if ((year % 10 == 0.3 |year % 10 == 3)&& year != 13  && year > 0 && year <=100){
                 System.out.println(format.format(year)+" года");
             }
-            else if ((year % 10 == 0.4 |year % 10 == 4)&& year != 14  && year > 0){
+            else if ((year % 10 == 0.4 |year % 10 == 4)&& year != 14  && year > 0 && year <=100){
                 System.out.println(format.format(year)+" года");
             }
-            else if ((year % 10 == 0.5 |year % 10 == 5) && year > 0){
+            else if ((year % 10 == 0.5 |year % 10 == 5) && year > 0 && year <=100){
                 System.out.println(format.format(year)+" лет");
             }
-            else if ((year % 10 == 0.6 |year % 10 == 6) && year > 0){
+            else if ((year % 10 == 0.6 |year % 10 == 6) && year > 0 && year <=100){
                 System.out.println(format.format(year)+" лет");
             }
-            else if ((year % 10 == 0.7 |year % 10 == 7) && year > 0){
+            else if ((year % 10 == 0.7 |year % 10 == 7) && year > 0 && year <=100){
                 System.out.println(format.format(year)+" лет");
             }
-            else if ((year % 10 == 0.8 |year % 10 == 8) && year > 0){
+            else if ((year % 10 == 0.8 |year % 10 == 8) && year > 0 && year <=100){
                 System.out.println(format.format(year)+" лет");
             }
-            else if ((year % 10 == 0.9 | year % 10 == 9) && year > 0){
+            else if ((year % 10 == 0.9 | year % 10 == 9) && year > 0 && year <=100){
                 System.out.println(format.format(year)+" лет");
             }
-            else if (year % 10 == 0 && year > 0){
+            else if (year % 10 == 0 && year > 0 && year <=100){
                 System.out.println(format.format(year)+" лет");
             }
             else if (year == 11){
@@ -89,6 +89,9 @@ public class practic_theme_2 {
             }
             else if (year < 0){
                 System.out.println(format.format(year)+" Вы ещё не родились");
+            }
+            else if (year > 100){
+                System.out.println("Ничего себе! Ваш возраст: "+format.format(year)+"! Наше почтение, вам уже больше 100!");
             }
             else {System.out.println("Что-то непонятное");}
 
