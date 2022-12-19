@@ -29,12 +29,12 @@ public class practic_theme_2 {
             answer_user = in.next();//Присваиваем новое значение и, перезапускаем/останавливаем программу
 
         }
-            if ((!answer_user.equalsIgnoreCase("N")|(!answer_user.equalsIgnoreCase("N"))))
+            if ((!answer_user.equalsIgnoreCase("N")&&(!answer_user.equalsIgnoreCase("Y"))))
             {System.out.print(" Укажите один из вариантов (Y/N): ");
         answer_user = in.next();}
 
             else if ((answer_user.equalsIgnoreCase("N")))
-            {System.out.print("Очень жиль. Оставайтесь в неведении");
+            {System.out.print("Очень жаль. Оставайтесь в неведении");
             break;}
     }}
 
