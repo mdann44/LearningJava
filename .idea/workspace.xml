@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Поправил условие в файле practic_theme_2 для долгожителей">
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Поправил обрабутку некорректных данных в файле practic_theme_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/practic_theme_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/practic_theme_2.java" afterDir="false" />
     </list>
@@ -216,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671454205102</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Поправил обрабутку некорректных данных в файле practic_theme_2">
+      <created>1671456227863</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671456227863</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Поправил обрабутку некорректных данных в файле practic_theme_2">
+      <created>1671456274745</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671456274745</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +255,7 @@
     <MESSAGE value="Восстановил, нечаянно, удаленные файлы.&#10;Продолжил конспект в FAQ. Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2" />
     <MESSAGE value="Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2.&#10;Реализовал валидацию вводимой информации" />
     <MESSAGE value="Поправил условие в файле practic_theme_2 для долгожителей" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил условие в файле practic_theme_2 для долгожителей" />
+    <MESSAGE value="Поправил обрабутку некорректных данных в файле practic_theme_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил обрабутку некорректных данных в файле practic_theme_2" />
   </component>
 </project>
