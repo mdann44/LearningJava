@@ -13,7 +13,7 @@ import java.text.NumberFormat;
 import java.util.Calendar;
 import java.util.Scanner;
 
-public class practic_theme_2 {
+public class PracticTheme2 {
     public static void main(String[] args) {
 
 

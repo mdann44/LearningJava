@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Поправил обрабутку некорректных данных в файле practic_theme_2">
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Объединил условия обработки введенной информации в файле practic_theme_2 + рефакторинг кода">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/practic_theme_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/practic_theme_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/cycle_do.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/cycle_for.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/cycle_for_and_break.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleForAndBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/cycle_for_and_continue.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleForAndContinue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/cycle_while.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/input_in_console.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/InputInConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/one_array_cycle_for.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/OneArrayCycleFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/one_array_cycle_foreach.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/OneArrayCycleForeach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/operator_return.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/OperatorReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/param_for_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/ParamForMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/practic_theme_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/PracticTheme2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/run_method_in_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/RunMethodInMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/two_array_cycle_for.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/TwoArrayCycleFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +74,9 @@
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.practic_theme_2">
-    <configuration name="cycle_do" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.cycle_do" />
+  <component name="RunManager" selected="Application.TwoArrayCycleFor">
+    <configuration name="CycleDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example_theme_2.CycleDo" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operator_return" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.operator_return" />
+    <configuration name="OperatorReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example_theme_2.OperatorReturn" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practic_theme_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.practic_theme_2" />
+    <configuration name="PracticTheme2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example_theme_2.PracticTheme2" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run_method_in_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.run_method_in_main" />
+    <configuration name="TwoArrayCycleFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example_theme_2.TwoArrayCycleFor" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.practic_theme_2" />
-        <item itemvalue="Application.cycle_do" />
+        <item itemvalue="Application.TwoArrayCycleFor" />
+        <item itemvalue="Application.PracticTheme2" />
+        <item itemvalue="Application.CycleDo" />
         <item itemvalue="Application.www" />
-        <item itemvalue="Application.operator_return" />
-        <item itemvalue="Application.run_method_in_main" />
+        <item itemvalue="Application.OperatorReturn" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671456274745</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Объединил условия обработки введенной информации в файле practic_theme_2 + рефакторинг кода">
+      <created>1671515728647</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671515728647</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,6 +276,7 @@
     <MESSAGE value="Остановился на теме &quot;Введение в обработку исключений&quot;&#10;В файле practic_theme_2 фантазирую подобие программы, используя то, что узнал в теме №2.&#10;Реализовал валидацию вводимой информации" />
     <MESSAGE value="Поправил условие в файле practic_theme_2 для долгожителей" />
     <MESSAGE value="Поправил обрабутку некорректных данных в файле practic_theme_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил обрабутку некорректных данных в файле practic_theme_2" />
+    <MESSAGE value="Объединил условия обработки введенной информации в файле practic_theme_2 + рефакторинг кода" />
+    <option name="LAST_COMMIT_MESSAGE" value="Объединил условия обработки введенной информации в файле practic_theme_2 + рефакторинг кода" />
   </component>
 </project>

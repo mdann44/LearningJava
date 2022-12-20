@@ -132,7 +132,7 @@ public class Program{   // начало объявления класса Progra
     * nextByte(): считывает введенное число byte
     * nextFloat(): считывает введенное число float
     * nextShort(): считывает введенное число short
-        Пример в файле: Example_theme_2.input_in_console
+        Пример в файле: Example_theme_2.InputInConsole
 
 -------------------------------------------------------------------------
 /////Арифметические операции/////

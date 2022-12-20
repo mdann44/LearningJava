@@ -1,6 +1,6 @@
 package Example_theme_2;
 
-public class one_array_cycle_foreach {
+public class OneArrayCycleForeach {
     public static void main(String[] args) {
         int[] array = new int[] { 1, 2, 3, 4, 5 }; // Создали массив
         for (int i=0; i<array.length;i++){ // Запустили цикл, задали условие от длины массива

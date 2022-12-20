@@ -1,6 +1,6 @@
 package Example_theme_2;
 
-public class run_method_in_main {
+public class RunMethodInMain {
     public static void main (String[] args){ // Основной метод, вызывающий остальные
         hello();
         welcome();

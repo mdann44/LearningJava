@@ -1,6 +1,6 @@
 package Example_theme_2;
 
-public class param_for_method {
+public class ParamForMethod {
     public static void main (String[] args){
         int a = 6; //Объявили переменную
         int b = 8;

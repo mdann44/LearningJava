@@ -2,7 +2,7 @@ package Example_theme_2;
 
 import java.util.Scanner;
 
-public class operator_return {
+public class OperatorReturn {
     public static void main (String [] args){
         Scanner in = new Scanner(System.in); //Создадим сканер, для считывания из консоли
         System.out.print("Укажите значение часа, для анализа от 0 до 24: ");

@@ -1,6 +1,6 @@
 package Example_theme_2;
 
-public class two_array_cycle_for {
+public class TwoArrayCycleFor {
     public static void main(String[] args) {
         {
             int[][] nums = new int[][] // Создали массив
