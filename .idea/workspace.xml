@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Выполнил рефакторинг. Привет классы к CamelCase">
-      <change afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/PracticTheme2TryCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/TryCatchFinaly.java" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Дополнил файл FAQ темой &quot;обработка исключений&quot;. Создал файл PracticTheme2TryCatch с применением исключения для валидирования введенной пользовательской информации. Завершил второй блок учебника">
+      <change afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/MyExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/PracticTheme2TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/PracticTheme2TryCatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" afterDir="false" />
     </list>
@@ -60,6 +60,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Example_theme_2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
     </key>
@@ -247,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671518390649</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Дополнил файл FAQ темой &quot;обработка исключений&quot;. Создал файл PracticTheme2TryCatch с применением исключения для валидирования введенной пользовательской информации. Завершил второй блок учебника">
+      <created>1671548168447</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671548168447</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +285,7 @@
     <MESSAGE value="Поправил обрабутку некорректных данных в файле practic_theme_2" />
     <MESSAGE value="Объединил условия обработки введенной информации в файле practic_theme_2 + рефакторинг кода" />
     <MESSAGE value="Выполнил рефакторинг. Привет классы к CamelCase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнил рефакторинг. Привет классы к CamelCase" />
+    <MESSAGE value="Дополнил файл FAQ темой &quot;обработка исключений&quot;. Создал файл PracticTheme2TryCatch с применением исключения для валидирования введенной пользовательской информации. Завершил второй блок учебника" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дополнил файл FAQ темой &quot;обработка исключений&quot;. Создал файл PracticTheme2TryCatch с применением исключения для валидирования введенной пользовательской информации. Завершил второй блок учебника" />
   </component>
 </project>

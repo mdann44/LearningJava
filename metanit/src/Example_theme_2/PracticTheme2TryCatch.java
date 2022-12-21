@@ -16,8 +16,9 @@ import java.util.Calendar;
 import java.util.Scanner;
 
 public class PracticTheme2TryCatch {
-    public static void main(String[] args) {
 
+
+    public static void main(String[] args) {
         //Вход. Верхний уровень, стартовый.
         Scanner in = new Scanner(System.in);
         System.out.print("Вы хотите узнать, сколько вам лет? (Y/N): ");
@@ -26,7 +27,7 @@ public class PracticTheme2TryCatch {
         while (true) {//Бесконечный цикл. Выполняется, пока не выполним уловие выхода break
             try { //Блок кода, в котором ожидаем ошибку
                 //Ниже цикл while выполняется только при ответе пользователя "Y". Иначе, возвращаемся на уровень вверх
-                while ((answer_user.equalsIgnoreCase("Y")))//Сравниваем строку без учета регистра
+                while (answer_user.equalsIgnoreCase("Y"))//Сравниваем строку без учета регистра
                 {
                     old_years();//Вызываем метод вычисления возраста
                     System.out.print("Вы хотите узнать, сколько вам лет? (Y/N): ");
@@ -35,15 +36,15 @@ public class PracticTheme2TryCatch {
                 }
                 // Ниже описываем то, что считаем ошибкой ввода (Валидируем пользователя)
                 if ((!answer_user.equalsIgnoreCase("N") && (!answer_user.equalsIgnoreCase("Y")))) {
-                    throw new Exception("Используйте допустимые варианты (Y/N): ");
+                    throw new MyExceptions();//Сообщение об ошибке вынес в MyExceptions.java (в конструктор MyExceptions)
                 }
                 // Блоки catch, которыми мы обрабатываем исключения (ошибки)
-            } catch (Exception ex) { //Если пользователь ввел "Не то", пришлем сообщение с текстом из throw new
+            } catch (MyExceptions ex) { //Если пользователь ввел "Не то", пришлем сообщение с текстом из throw new
                 System.out.println(ex.getMessage());
             }
             answer_user = in.next();
             //Условие выхода из бесконечного цикла и, конец программы
-            if ((answer_user.equalsIgnoreCase("N"))) {
+            if (answer_user.equalsIgnoreCase("N")) {
                 System.out.print("Очень жаль. Оставайтесь в неведении");
                 break;
             }
