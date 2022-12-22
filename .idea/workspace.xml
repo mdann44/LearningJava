@@ -4,10 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Дополнил файл FAQ темой &quot;обработка исключений&quot;. Создал файл PracticTheme2TryCatch с применением исключения для валидирования введенной пользовательской информации. Завершил второй блок учебника">
-      <change afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/MyExceptions.java" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Дополнил файл FAQ темой &quot;Классы, объекты, конструкторы&quot;. Создал файл MyExceptions.java, куда вынес обработку ошибки из файла PracticTheme2TryCatch.java.">
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/ObjectPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/StartClassForPerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/PracticTheme2TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Example_theme_2/PracticTheme2TryCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/CycleDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/CycleFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleForAndBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/CycleForAndBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleForAndContinue.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/CycleForAndContinue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/CycleWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/InputInConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/InputInConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/MyExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/MyExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/OneArrayCycleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/OneArrayCycleFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/OneArrayCycleForeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/OneArrayCycleForeach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/OperatorReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/OperatorReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/ParamForMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/ParamForMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/PracticTheme2.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/PracticTheme2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/PracticTheme2TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/PracticTheme2TryCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/RunMethodInMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/RunMethodInMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/TryCatchFinaly.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/TryCatchFinaly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/TwoArrayCycleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/TwoArrayCycleFor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" afterDir="false" />
     </list>
@@ -67,26 +83,13 @@
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PracticTheme2TryCatch">
-    <configuration name="CycleDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.CycleDo" />
-      <module name="metanit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Example_theme_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StartClassForPerson">
     <configuration name="PracticTheme2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.PracticTheme2" />
+      <option name="MAIN_CLASS_NAME" value="Q2.PracticTheme2" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Example_theme_2.*" />
+          <option name="PATTERN" value="Q2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,11 +98,24 @@
       </method>
     </configuration>
     <configuration name="PracticTheme2TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.PracticTheme2TryCatch" />
+      <option name="MAIN_CLASS_NAME" value="Q2.PracticTheme2TryCatch" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Example_theme_2.*" />
+          <option name="PATTERN" value="Q2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartClassForPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3ClassObjectConstructor.StartClassForPerson" />
+      <module name="metanit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q3ClassObjectConstructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +124,11 @@
       </method>
     </configuration>
     <configuration name="TryCatchFinaly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.TryCatchFinaly" />
+      <option name="MAIN_CLASS_NAME" value="Q2.TryCatchFinaly" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Example_theme_2.*" />
+          <option name="PATTERN" value="Q2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +137,11 @@
       </method>
     </configuration>
     <configuration name="TwoArrayCycleFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example_theme_2.TwoArrayCycleFor" />
+      <option name="MAIN_CLASS_NAME" value="Q2.TwoArrayCycleFor" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Example_theme_2.*" />
+          <option name="PATTERN" value="Q2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartClassForPerson" />
         <item itemvalue="Application.PracticTheme2TryCatch" />
         <item itemvalue="Application.TryCatchFinaly" />
         <item itemvalue="Application.TwoArrayCycleFor" />
         <item itemvalue="Application.PracticTheme2" />
-        <item itemvalue="Application.CycleDo" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671548168447</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Дополнил файл FAQ темой &quot;Классы, объекты, конструкторы&quot;. Создал файл MyExceptions.java, куда вынес обработку ошибки из файла PracticTheme2TryCatch.java.">
+      <created>1671633635025</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671633635025</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +309,7 @@
     <MESSAGE value="Объединил условия обработки введенной информации в файле practic_theme_2 + рефакторинг кода" />
     <MESSAGE value="Выполнил рефакторинг. Привет классы к CamelCase" />
     <MESSAGE value="Дополнил файл FAQ темой &quot;обработка исключений&quot;. Создал файл PracticTheme2TryCatch с применением исключения для валидирования введенной пользовательской информации. Завершил второй блок учебника" />
-    <option name="LAST_COMMIT_MESSAGE" value="Дополнил файл FAQ темой &quot;обработка исключений&quot;. Создал файл PracticTheme2TryCatch с применением исключения для валидирования введенной пользовательской информации. Завершил второй блок учебника" />
+    <MESSAGE value="Дополнил файл FAQ темой &quot;Классы, объекты, конструкторы&quot;. Создал файл MyExceptions.java, куда вынес обработку ошибки из файла PracticTheme2TryCatch.java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Дополнил файл FAQ темой &quot;Классы, объекты, конструкторы&quot;. Создал файл MyExceptions.java, куда вынес обработку ошибки из файла PracticTheme2TryCatch.java." />
   </component>
 </project>

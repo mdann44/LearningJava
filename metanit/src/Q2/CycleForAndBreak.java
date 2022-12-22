@@ -1,4 +1,4 @@
-package Example_theme_2;
+package Q2;
 
 public class CycleForAndBreak {
     public static void main(String[] args) {

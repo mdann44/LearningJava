@@ -7,7 +7,7 @@
 5. Учесть отрицательный возраст +
 6. Применить исключение Try Catch
  */
-package Example_theme_2;
+package Q2;
 
 
 import java.text.DecimalFormat;

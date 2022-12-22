@@ -1,12 +1,12 @@
-package Example_theme_2;
+package Q2;
 
-public class CycleDo {
+public class CycleWhile {
     public static void main(String[] args) {
-        int j = 7;
-        do{
+        int j = 6;
+        while (j > 0){
+
             System.out.println(j);
             j--;
         }
-        while (j > 0);
     }
 }

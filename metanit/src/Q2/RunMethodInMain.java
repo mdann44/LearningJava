@@ -1,4 +1,4 @@
-package Example_theme_2;
+package Q2;
 
 public class RunMethodInMain {
     public static void main (String[] args){ // Основной метод, вызывающий остальные

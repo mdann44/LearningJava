@@ -6,7 +6,7 @@
 4. Учесть, что человек может ввести только Y или N +
 5. Учесть отрицательный возраст +
  */
-package Example_theme_2;
+package Q2;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;

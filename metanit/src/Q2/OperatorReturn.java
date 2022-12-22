@@ -1,4 +1,4 @@
-package Example_theme_2;
+package Q2;
 
 import java.util.Scanner;
 
