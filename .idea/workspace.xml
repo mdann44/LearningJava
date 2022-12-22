@@ -4,32 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Отрефакторил наименования папок. Создал файлы ObjectPerson.java и StartClassForPerson.java, где реализовал классы, объекты с использованием конструктора. Пример функционирования конструкции Класс Объект Конструктор">
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/ObjectPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/StartClassForPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/metanit/ClassObjectConstructorTheme_3/ObjectPerson.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/metanit/ClassObjectConstructorTheme_3/StartClassForPerson.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/MyExceptions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/PracticTheme2TryCatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/TryCatchFinaly.class" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="StartClassForPerson.java - добавил комментарии">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/CycleDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/CycleFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleForAndBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/CycleForAndBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleForAndContinue.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/CycleForAndContinue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/CycleWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/CycleWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/InputInConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/InputInConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/MyExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/MyExceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/OneArrayCycleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/OneArrayCycleFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/OneArrayCycleForeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/OneArrayCycleForeach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/OperatorReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/OperatorReturn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/ParamForMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/ParamForMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/PracticTheme2.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/PracticTheme2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/PracticTheme2TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/PracticTheme2TryCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/RunMethodInMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/RunMethodInMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/TryCatchFinaly.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/TryCatchFinaly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Example_theme_2/TwoArrayCycleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q2/TwoArrayCycleFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/ObjectPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/ObjectPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/StartClassForPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/StartClassForPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/ClassObjectConstructorTheme_3/ObjectPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/ClassObjectConstructorTheme_3/StartClassForPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/CycleDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/CycleFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/CycleForAndBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/CycleForAndContinue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/CycleWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/InputInConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/MyExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/OneArrayCycleFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/OneArrayCycleForeach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/OperatorReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/ParamForMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/PracticTheme2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/PracticTheme2TryCatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/RunMethodInMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/TryCatchFinaly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/TwoArrayCycleFor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -292,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671696871633</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="StartClassForPerson.java - добавил комментарии">
+      <created>1671696967165</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671696967165</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,6 +326,7 @@
     <MESSAGE value="Дополнил файл FAQ темой &quot;обработка исключений&quot;. Создал файл PracticTheme2TryCatch с применением исключения для валидирования введенной пользовательской информации. Завершил второй блок учебника" />
     <MESSAGE value="Дополнил файл FAQ темой &quot;Классы, объекты, конструкторы&quot;. Создал файл MyExceptions.java, куда вынес обработку ошибки из файла PracticTheme2TryCatch.java." />
     <MESSAGE value="Отрефакторил наименования папок. Создал файлы ObjectPerson.java и StartClassForPerson.java, где реализовал классы, объекты с использованием конструктора. Пример функционирования конструкции Класс Объект Конструктор" />
-    <option name="LAST_COMMIT_MESSAGE" value="Отрефакторил наименования папок. Создал файлы ObjectPerson.java и StartClassForPerson.java, где реализовал классы, объекты с использованием конструктора. Пример функционирования конструкции Класс Объект Конструктор" />
+    <MESSAGE value="StartClassForPerson.java - добавил комментарии" />
+    <option name="LAST_COMMIT_MESSAGE" value="StartClassForPerson.java - добавил комментарии" />
   </component>
 </project>
