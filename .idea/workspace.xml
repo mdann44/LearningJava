@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="StartClassForPerson.java - добавил комментарии">
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Добавил в конструктор общую характеристику, присваемую поумолчанию для создаваемых объектов. Новым объектам присваивается статус = активный">
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3ModifiersAndInkapsulation/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3ModifiersAndInkapsulation/StartMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/ObjectPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/ObjectPerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/StartClassForPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q3ClassObjectConstructor/StartClassForPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/ClassObjectConstructorTheme_3/ObjectPerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/ClassObjectConstructorTheme_3/StartClassForPerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/CycleDo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/CycleFor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/CycleForAndBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/CycleForAndContinue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/CycleWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/InputInConsole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/MyExceptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/OneArrayCycleFor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/OneArrayCycleForeach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/OperatorReturn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/ParamForMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/PracticTheme2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/PracticTheme2TryCatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/RunMethodInMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/TryCatchFinaly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Example_theme_2/TwoArrayCycleFor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,20 +69,7 @@
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartClassForPerson">
-    <configuration name="PracticTheme2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q2.PracticTheme2" />
-      <module name="metanit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Q2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StartMain">
     <configuration name="PracticTheme2TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q2.PracticTheme2TryCatch" />
       <module name="metanit" />
@@ -117,6 +89,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Q3ClassObjectConstructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3ModifiersAndInkapsulation.StartMain" />
+      <module name="metanit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q3ModifiersAndInkapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartMain" />
         <item itemvalue="Application.StartClassForPerson" />
         <item itemvalue="Application.PracticTheme2TryCatch" />
         <item itemvalue="Application.TryCatchFinaly" />
         <item itemvalue="Application.TwoArrayCycleFor" />
-        <item itemvalue="Application.PracticTheme2" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671696967165</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Добавил в конструктор общую характеристику, присваемую поумолчанию для создаваемых объектов. Новым объектам присваивается статус = активный">
+      <created>1671700425128</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671700425128</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +319,7 @@
     <MESSAGE value="Дополнил файл FAQ темой &quot;Классы, объекты, конструкторы&quot;. Создал файл MyExceptions.java, куда вынес обработку ошибки из файла PracticTheme2TryCatch.java." />
     <MESSAGE value="Отрефакторил наименования папок. Создал файлы ObjectPerson.java и StartClassForPerson.java, где реализовал классы, объекты с использованием конструктора. Пример функционирования конструкции Класс Объект Конструктор" />
     <MESSAGE value="StartClassForPerson.java - добавил комментарии" />
-    <option name="LAST_COMMIT_MESSAGE" value="StartClassForPerson.java - добавил комментарии" />
+    <MESSAGE value="Добавил в конструктор общую характеристику, присваемую поумолчанию для создаваемых объектов. Новым объектам присваивается статус = активный" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил в конструктор общую характеристику, присваемую поумолчанию для создаваемых объектов. Новым объектам присваивается статус = активный" />
   </component>
 </project>
