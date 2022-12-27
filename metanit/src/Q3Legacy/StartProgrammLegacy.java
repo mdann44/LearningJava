@@ -11,6 +11,5 @@ public class StartProgrammLegacy {
         sam.who(); //Кто этот зверь?
         sam.eat();//Что он есть?
         sam.sleep();//Он любит спать?
-
     }
 }

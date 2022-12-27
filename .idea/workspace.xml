@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Создал пример с инкапсуляцией в пакете Q3ModifiersAndInkapsulation. Модификаторы доступа приватные, к которым обращаюсь через геттеры и сеттеры. + через инкапсуляцию модифицировал получаемые данные. Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;">
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Legacy/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Legacy/Cats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Legacy/Dogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Legacy/StartProgrammLegacy.java" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Создал пакет Q3Legacy. В данном пакете мы показываем, как работает наследование&#10;Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;">
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/InfoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/StartInterfaces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Q3Legacy/StartProgrammLegacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q3Legacy/StartProgrammLegacy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -69,7 +71,7 @@
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartProgrammLegacy">
+  <component name="RunManager" selected="Application.StartInterfaces">
     <configuration name="PracticTheme2TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q2.PracticTheme2TryCatch" />
       <module name="metanit" />
@@ -89,6 +91,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Q3ClassObjectConstructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3Interfaces.StartInterfaces" />
+      <module name="metanit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q3Interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,26 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatchFinaly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q2.TryCatchFinaly" />
-      <module name="metanit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Q2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartInterfaces" />
+        <item itemvalue="Application.PracticTheme2TryCatch" />
         <item itemvalue="Application.StartProgrammLegacy" />
         <item itemvalue="Application.StartMain" />
         <item itemvalue="Application.StartClassForPerson" />
-        <item itemvalue="Application.PracticTheme2TryCatch" />
-        <item itemvalue="Application.TryCatchFinaly" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671738568864</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Создал пакет Q3Legacy. В данном пакете мы показываем, как работает наследование&#10;Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;">
+      <created>1671808817899</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1671808817899</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,6 +337,7 @@
     <MESSAGE value="StartClassForPerson.java - добавил комментарии" />
     <MESSAGE value="Добавил в конструктор общую характеристику, присваемую поумолчанию для создаваемых объектов. Новым объектам присваивается статус = активный" />
     <MESSAGE value="Создал пример с инкапсуляцией в пакете Q3ModifiersAndInkapsulation. Модификаторы доступа приватные, к которым обращаюсь через геттеры и сеттеры. + через инкапсуляцию модифицировал получаемые данные. Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал пример с инкапсуляцией в пакете Q3ModifiersAndInkapsulation. Модификаторы доступа приватные, к которым обращаюсь через геттеры и сеттеры. + через инкапсуляцию модифицировал получаемые данные. Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;" />
+    <MESSAGE value="Создал пакет Q3Legacy. В данном пакете мы показываем, как работает наследование&#10;Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал пакет Q3Legacy. В данном пакете мы показываем, как работает наследование&#10;Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;" />
   </component>
 </project>
