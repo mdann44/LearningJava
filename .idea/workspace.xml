@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Создал пакет Q3Legacy. В данном пакете мы показываем, как работает наследование&#10;Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;">
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/InfoInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/StartInterfaces.java" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Дополнил FAQ темами: наследование, абстрактные классы,интерфейсы.&#10;Добавил в пакете Q3Legacy пример, как работает наследование&#10;&#10;Создал пакет Q3Interfaces. Внутри пример использования интерфейса">
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3EventInterface/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3EventInterface/ButtonClickTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3EventInterface/ButtonClickTv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3EventInterface/EventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3EventInterface/Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metanit/src/Q3Legacy/StartProgrammLegacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q3Legacy/StartProgrammLegacy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Q3Interfaces/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Q3Interfaces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/Q3Interfaces/StartInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/Q3Interfaces/StartInterfaces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Q3Interfaces/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/Q3Interfaces/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Q3Interfaces/StartInterfaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/Q3Interfaces/StartInterfaces.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,7 +76,7 @@
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartInterfaces">
+  <component name="RunManager" selected="Application.Start">
     <configuration name="PracticTheme2TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q2.PracticTheme2TryCatch" />
       <module name="metanit" />
@@ -85,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartClassForPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q3ClassObjectConstructor.StartClassForPerson" />
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3EventInterface.Start" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q3ClassObjectConstructor.*" />
+          <option name="PATTERN" value="Q3EventInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Start" />
         <item itemvalue="Application.StartInterfaces" />
         <item itemvalue="Application.PracticTheme2TryCatch" />
         <item itemvalue="Application.StartProgrammLegacy" />
         <item itemvalue="Application.StartMain" />
-        <item itemvalue="Application.StartClassForPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671808817899</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Дополнил FAQ темами: наследование, абстрактные классы,интерфейсы.&#10;Добавил в пакете Q3Legacy пример, как работает наследование&#10;&#10;Создал пакет Q3Interfaces. Внутри пример использования интерфейса">
+      <created>1672170635843</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1672170635843</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,6 +350,7 @@
     <MESSAGE value="Добавил в конструктор общую характеристику, присваемую поумолчанию для создаваемых объектов. Новым объектам присваивается статус = активный" />
     <MESSAGE value="Создал пример с инкапсуляцией в пакете Q3ModifiersAndInkapsulation. Модификаторы доступа приватные, к которым обращаюсь через геттеры и сеттеры. + через инкапсуляцию модифицировал получаемые данные. Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;" />
     <MESSAGE value="Создал пакет Q3Legacy. В данном пакете мы показываем, как работает наследование&#10;Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал пакет Q3Legacy. В данном пакете мы показываем, как работает наследование&#10;Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;" />
+    <MESSAGE value="Дополнил FAQ темами: наследование, абстрактные классы,интерфейсы.&#10;Добавил в пакете Q3Legacy пример, как работает наследование&#10;&#10;Создал пакет Q3Interfaces. Внутри пример использования интерфейса" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дополнил FAQ темами: наследование, абстрактные классы,интерфейсы.&#10;Добавил в пакете Q3Legacy пример, как работает наследование&#10;&#10;Создал пакет Q3Interfaces. Внутри пример использования интерфейса" />
   </component>
 </project>

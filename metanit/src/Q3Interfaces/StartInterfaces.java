@@ -1,7 +1,11 @@
 package Q3Interfaces;
 
+import java.util.UUID;
+
 public class StartInterfaces {
     public static void main(String[] args){
+
+
         Animal animal1 = new Animal();
         Person person1 = new Person("Vasya");
         //animal1.sleep();

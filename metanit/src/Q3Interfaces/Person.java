@@ -13,4 +13,5 @@ public class Person implements InfoInterface {//Класс Person реализу
     public void infoInterface() {//Реализовали интерфейс
         System.out.println("Имя: "+this.name);
     }
+
 }
