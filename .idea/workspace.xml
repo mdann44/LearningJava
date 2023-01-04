@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Дополнил FAQ темами: Интерфейсы в обратном вызове, List.&#10;&#10;В пакете Q2EventInterface показал реализацию обратного вызова">
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3ArrayListAndLinkedList/PersonForList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3ArrayListAndLinkedList/StartForList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3PracticeFinal/BaseProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3PracticeFinal/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/Q3PracticeFinal/Start.java" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Добавил пример работы с List и LinkedList в пакет Q3ArrayListAndLinkedList">
+      <change afterPath="$PROJECT_DIR$/metanit/src/Q3HashMap/StartHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metanit/src/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/FAQ.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Q3ArrayListAndLinkedList/StartForList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/Q3ArrayListAndLinkedList/StartForList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,20 +69,7 @@
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartForList">
-    <configuration name="PracticTheme2TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q2.PracticTheme2TryCatch" />
-      <module name="metanit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Q2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StartHashMap">
     <configuration name="Q3PracticeFinal.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q3PracticeFinal.Start" />
       <module name="metanit" />
@@ -125,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3HashMap.StartHashMap" />
+      <module name="metanit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q3HashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q3Interfaces.StartInterfaces" />
       <module name="metanit" />
@@ -140,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartHashMap" />
         <item itemvalue="Application.StartForList" />
         <item itemvalue="Application.Q3PracticeFinal.Start" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.StartInterfaces" />
-        <item itemvalue="Application.PracticTheme2TryCatch" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672653011479</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Добавил пример работы с List и LinkedList в пакет Q3ArrayListAndLinkedList">
+      <created>1672818073586</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1672818073586</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,6 +366,7 @@
     <MESSAGE value="Создал пакет Q3Legacy. В данном пакете мы показываем, как работает наследование&#10;Дополнил файл FAQ. Закончил на теме &quot;Инкапсуляция&quot;" />
     <MESSAGE value="Дополнил FAQ темами: наследование, абстрактные классы,интерфейсы.&#10;Добавил в пакете Q3Legacy пример, как работает наследование&#10;&#10;Создал пакет Q3Interfaces. Внутри пример использования интерфейса" />
     <MESSAGE value="Дополнил FAQ темами: Интерфейсы в обратном вызове, List.&#10;&#10;В пакете Q2EventInterface показал реализацию обратного вызова" />
-    <option name="LAST_COMMIT_MESSAGE" value="Дополнил FAQ темами: Интерфейсы в обратном вызове, List.&#10;&#10;В пакете Q2EventInterface показал реализацию обратного вызова" />
+    <MESSAGE value="Добавил пример работы с List и LinkedList в пакет Q3ArrayListAndLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил пример работы с List и LinkedList в пакет Q3ArrayListAndLinkedList" />
   </component>
 </project>
