@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Добавил пример работы с HasMap в пакет Q3HasMap">
-      <change afterPath="$PROJECT_DIR$/metanit/src/ActualMvp/BdPractice/DepartmentDevelopment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/ActualMvp/BdPractice/DepartmentQa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/ActualMvp/BdPractice/StaffSberHealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/ActualMvp/BdPractice/StartMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/DraftBdPracticeNotActual/DepartmentDevelopment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/DraftBdPracticeNotActual/DepartmentQa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/DraftBdPracticeNotActual/StaffSberHealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/DraftBdPracticeNotActual/StartMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/DraftBdPracticeNotActual/ccc.java" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="В пакете ActualMvp.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования&#10;3. Редактирование объекта в отделе тестирования&#10;4. Просмотр всех объектов в отделе тестирования&#10;5. Удаление объекта из отдела тестирования по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора">
+      <change afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/DepartmentDevelopment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/DepartmentQa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/StaffSberHealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/StartMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/metanit/FAQ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/BdPractice/DepartmentDevelopment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/BdPractice/DepartmentQa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/BdPractice/StaffSberHealth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/BdPractice/StartMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Variant2Bd/BdPractice/DepartmentDevelopment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Variant2Bd/BdPractice/DepartmentQa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Variant2Bd/BdPractice/StaffSberHealth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/metanit/Variant2Bd/BdPractice/StartMain.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/mdannikov/Documents/GitHub/LearningJava/metanit/src/Variant2Bd",
+    "last_opened_file_path": "C:/Users/mdannikov/Documents/GitHub/LearningJava/metanit/src/MVP_3_0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -72,6 +74,7 @@
       <recent name="Example_theme_2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src\MVP_3_0" />
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src\Variant2Bd" />
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
     </key>
@@ -79,13 +82,13 @@
       <recent name="C:\Users\mdannikov\Documents\GitHub\LearningJava\metanit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Variant2Bd.BdPractice.StartMain">
-    <configuration name="Q3PracticeFinal.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q3PracticeFinal.Start" />
+  <component name="RunManager" selected="Application.MVP_3_0.BdPractice.StartMain">
+    <configuration name="MVP_3_0.BdPractice.StartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MVP_3_0.BdPractice.StartMain" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q3PracticeFinal.*" />
+          <option name="PATTERN" value="MVP_3_0.BdPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartForList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q3ArrayListAndLinkedList.StartForList" />
+    <configuration name="Q3PracticeFinal.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3PracticeFinal.Start" />
       <module name="metanit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q3ArrayListAndLinkedList.*" />
+          <option name="PATTERN" value="Q3PracticeFinal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MVP_3_0.BdPractice.StartMain" />
         <item itemvalue="Application.Variant2Bd.BdPractice.StartMain" />
         <item itemvalue="Application.StartMain" />
         <item itemvalue="Application.Q3PracticeFinal.Start" />
         <item itemvalue="Application.StartHashMap" />
-        <item itemvalue="Application.StartForList" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672821673086</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="В пакете ActualMvp.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования&#10;3. Редактирование объекта в отделе тестирования&#10;4. Просмотр всех объектов в отделе тестирования&#10;5. Удаление объекта из отдела тестирования по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора">
+      <created>1672995811519</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672995811519</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,6 +395,7 @@
     <MESSAGE value="Дополнил FAQ темами: Интерфейсы в обратном вызове, List.&#10;&#10;В пакете Q2EventInterface показал реализацию обратного вызова" />
     <MESSAGE value="Добавил пример работы с List и LinkedList в пакет Q3ArrayListAndLinkedList" />
     <MESSAGE value="Добавил пример работы с HasMap в пакет Q3HasMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил пример работы с HasMap в пакет Q3HasMap" />
+    <MESSAGE value="В пакете ActualMvp.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования&#10;3. Редактирование объекта в отделе тестирования&#10;4. Просмотр всех объектов в отделе тестирования&#10;5. Удаление объекта из отдела тестирования по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора" />
+    <option name="LAST_COMMIT_MESSAGE" value="В пакете ActualMvp.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования&#10;3. Редактирование объекта в отделе тестирования&#10;4. Просмотр всех объектов в отделе тестирования&#10;5. Удаление объекта из отдела тестирования по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора" />
   </component>
 </project>
