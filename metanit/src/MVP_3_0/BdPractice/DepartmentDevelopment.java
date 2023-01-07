@@ -3,6 +3,7 @@ package MVP_3_0.BdPractice;
 import java.util.Scanner;
 
 public class DepartmentDevelopment extends StaffSberHealth {
+    Scanner in = new Scanner(System.in);
     private int fix_bugs;
     private int realisation_new_func;
 
@@ -43,20 +44,45 @@ public class DepartmentDevelopment extends StaffSberHealth {
                 ", Реализовал фич = " + realisation_new_func;
     }
     public void createDev(){
-        Scanner in = new Scanner(System.in);
+        //Реализовал методы валидации строк и чисел
+        myInterfaceValidationString valid_String = new myInterfaceValidationString() {
+            @Override
+            public void validationString() {
+                while (!in.hasNext("[a-zA-Zа-я]")) {
+                    System.out.println("Можно ввести только буквы");
+                    in.next();
+                }
+            }
+        };
+        myInterfaceValidationInt valid_int = new myInterfaceValidationInt() {
+            @Override
+            public void validationInt() {
+                while (!in.hasNextInt()) {
+                    System.out.println("Можно ввести только цифры");
+                    in.next();
+                }
+            }
+        };
         System.out.println("Введите имя: ");
+        valid_String.validationString();
         setName(in.next());
         System.out.println("Введите фамилию: ");
+        valid_String.validationString();
         setSurname(in.next());
         System.out.println("Введите должность: ");
+        valid_String.validationString();
         setDepartment(in.next());
         System.out.println("Введите год рождения: ");
+        valid_int.validationInt();
         setYear_of_birth(in.nextInt());
         System.out.println("Введите год начала работы: ");
+        valid_int.validationInt();
         setYear_of_employment(in.nextInt());
         System.out.println("Сколько исправил багов: ");
+        valid_int.validationInt();
         setFix_bugs(in.nextInt());
         System.out.println("Сколько Реализовал фич: ");
+        valid_int.validationInt();
         setRealisation_new_func(in.nextInt());
     }
 

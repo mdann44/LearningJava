@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="В пакете ActualMvp.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования&#10;3. Редактирование объекта в отделе тестирования&#10;4. Просмотр всех объектов в отделе тестирования&#10;5. Удаление объекта из отдела тестирования по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора">
-      <change afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/DepartmentDevelopment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/DepartmentQa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/StaffSberHealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/StartMain.java" afterDir="false" />
+    <list default="true" id="465c82a8-ce16-4a99-9a07-b00e2bfed4fc" name="Changes" comment="Всё переделал. Сделал новую версию.&#10;Вынес в отдельные классы методы для отделов.&#10;В пакете MVP_3_0.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования/разработки&#10;3. Редактирование объекта в отделе тестирования/разработки&#10;4. Просмотр всех объектов в отделе тестирования/разработки&#10;5. Удаление объекта из отдела тестирования/разработки по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора&#10;8. Создание отдельный объектов для выделения памяти, чтобы обращаться из статического класса к методам других классов">
+      <change afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/ValidationScanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/BdPractice/DepartmentDevelopment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/BdPractice/DepartmentQa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/BdPractice/StaffSberHealth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/BdPractice/StartMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Variant2Bd/BdPractice/DepartmentDevelopment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Variant2Bd/BdPractice/DepartmentQa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Variant2Bd/BdPractice/StaffSberHealth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/metanit/Variant2Bd/BdPractice/StartMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/DepartmentQa.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/DepartmentQa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/StartMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/metanit/src/MVP_3_0/BdPractice/StartMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672995811519</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Всё переделал. Сделал новую версию.&#10;Вынес в отдельные классы методы для отделов.&#10;В пакете MVP_3_0.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования/разработки&#10;3. Редактирование объекта в отделе тестирования/разработки&#10;4. Просмотр всех объектов в отделе тестирования/разработки&#10;5. Удаление объекта из отдела тестирования/разработки по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора&#10;8. Создание отдельный объектов для выделения памяти, чтобы обращаться из статического класса к методам других классов">
+      <created>1673037387709</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1673037387709</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,7 +369,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Начал вести файл FAQ" />
     <MESSAGE value="1. Дополнил FAQ: Закончил на теме &quot;Консольный ввод/вывод в Java&quot;&#10;&#10;2. Создал файл-пример для получения данных из консоли и вывода результата в консоль" />
     <MESSAGE value="Удалил лишние файлы" />
     <MESSAGE value="Дополнил комментарии к файлу input_in_console.java" />
@@ -396,6 +393,7 @@
     <MESSAGE value="Добавил пример работы с List и LinkedList в пакет Q3ArrayListAndLinkedList" />
     <MESSAGE value="Добавил пример работы с HasMap в пакет Q3HasMap" />
     <MESSAGE value="В пакете ActualMvp.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования&#10;3. Редактирование объекта в отделе тестирования&#10;4. Просмотр всех объектов в отделе тестирования&#10;5. Удаление объекта из отдела тестирования по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора" />
-    <option name="LAST_COMMIT_MESSAGE" value="В пакете ActualMvp.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования&#10;3. Редактирование объекта в отделе тестирования&#10;4. Просмотр всех объектов в отделе тестирования&#10;5. Удаление объекта из отдела тестирования по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора" />
+    <MESSAGE value="Всё переделал. Сделал новую версию.&#10;Вынес в отдельные классы методы для отделов.&#10;В пакете MVP_3_0.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования/разработки&#10;3. Редактирование объекта в отделе тестирования/разработки&#10;4. Просмотр всех объектов в отделе тестирования/разработки&#10;5. Удаление объекта из отдела тестирования/разработки по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора&#10;8. Создание отдельный объектов для выделения памяти, чтобы обращаться из статического класса к методам других классов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Всё переделал. Сделал новую версию.&#10;Вынес в отдельные классы методы для отделов.&#10;В пакете MVP_3_0.BdPractice реализую задание:&#10;Создать аналог БД для работы со списками.&#10;Созданы два отдела: Тестировщики и Разработчики&#10;Реализована логика работы пользователя через консоль с программой:&#10;1. Выбор отдела&#10;2. Добавление нового объекта в отдел тестирования/разработки&#10;3. Редактирование объекта в отделе тестирования/разработки&#10;4. Просмотр всех объектов в отделе тестирования/разработки&#10;5. Удаление объекта из отдела тестирования/разработки по ключу&#10;6. Генерация ключа при создании объекта&#10;7. Выполнение метода калькуляции стажа и возраста внутри конструктора&#10;8. Создание отдельный объектов для выделения памяти, чтобы обращаться из статического класса к методам других классов" />
   </component>
 </project>

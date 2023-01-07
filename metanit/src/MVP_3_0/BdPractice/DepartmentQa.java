@@ -4,6 +4,7 @@ package MVP_3_0.BdPractice;
 import java.util.Scanner;
 
 public class DepartmentQa extends StaffSberHealth {
+    Scanner in = new Scanner(System.in);
 
 
     private int bugs_found;
@@ -15,6 +16,7 @@ public class DepartmentQa extends StaffSberHealth {
         this.bugs_found = bugs_found;
         this.missed_bugs = missed_bugs;
     }
+
     public DepartmentQa() {
         super();
     }
@@ -38,26 +40,52 @@ public class DepartmentQa extends StaffSberHealth {
 
     @Override
     public String toString() {
-        return "Отдел тестирования" + super.toString()+
+        return "Отдел тестирования" + super.toString() +
                 " Нашел багов = " + bugs_found +
                 ", Пропустил багов = " + missed_bugs;
     }
+
     //Метод создания нового тестировщика
-    public void createQa(){
-        Scanner in = new Scanner(System.in);
+    public void createQa() {
+//Реализовал методы валидации строк и чисел
+        myInterfaceValidationString valid_String = new myInterfaceValidationString() {
+            @Override
+            public void validationString() {
+                while (!in.hasNext("[a-zA-Zа-я]")) {
+                    System.out.println("Можно ввести только буквы");
+                    in.next();
+                }
+            }
+        };
+        myInterfaceValidationInt valid_int = new myInterfaceValidationInt() {
+            @Override
+            public void validationInt() {
+                while (!in.hasNextInt()) {
+                    System.out.println("Можно ввести только цифры");
+                    in.next();
+                }
+            }
+        };
         System.out.println("Введите имя: ");
+        valid_String.validationString();
         setName(in.next());
         System.out.println("Введите фамилию: ");
+        valid_String.validationString();
         setSurname(in.next());
         System.out.println("Введите должность: ");
+        valid_String.validationString();
         setDepartment(in.next());
         System.out.println("Введите год рождения: ");
+        valid_int.validationInt();
         setYear_of_birth(in.nextInt());
         System.out.println("Введите год начала работы: ");
+        valid_int.validationInt();
         setYear_of_employment(in.nextInt());
         System.out.println("Сколько нашел багов: ");
+        valid_int.validationInt();
         setBugs_found(in.nextInt());
         System.out.println("Сколько пропустил багов: ");
+        valid_int.validationInt();
         setMissed_bugs(in.nextInt());
 
     }
